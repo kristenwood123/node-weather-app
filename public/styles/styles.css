@@ -11,6 +11,7 @@ body {
   text-align: center;
   display: flex;
   flex-direction: column;
+  height: 100%;
 }
 
 header {
@@ -53,4 +54,12 @@ button {
   background: #888;
   color: white;
   padding: 8px;
+}
+
+.text {
+  margin-bottom: 20px;
+}
+
+#message-1 {
+  margin-top: 20px;
 }

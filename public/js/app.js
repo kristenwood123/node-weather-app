@@ -20,7 +20,16 @@ weatherForm.addEventListener('submit', (e) => {
         } else {
           messageOne.textContent = data.location;
           messageTwo.textContent = data.forecast;
-          
+
+          let array = data.forecast;
+          let temp = 70;
+          let num;
+            for(let i = 0; i < array.length; i++) {
+              if(array.includes(i < temp)) {
+                document.body.style.backgroundColor = 'pink'
+              }
+            }
+
         }
       })
     })
